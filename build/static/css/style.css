@@ -63,7 +63,7 @@
   --content-width: 1355px;
   --container-offset: 20px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
-  --header-height: 72px;
+  --header-height: 81px;
   --scrollbar-thumb: #2d3a4a;
   --scrollbar-track: #18040d;
   --scrollbar-track-hover: #18040d;
@@ -91,6 +91,16 @@
 @media (max-width: 767px) {
   :root {
     --container-offset: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  :root {
+    --header-height: 88px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --header-height: 125px;
   }
 }
 
